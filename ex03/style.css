@@ -3,75 +3,122 @@ div {
     align-items: center;
     gap: 5px;
     flex-wrap: wrap;
-    margin-left: 175px;
+    margin-left: 100px;
     margin-right: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-h2
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .square
 {
-    width:130px;
-    height:100px;
+    width:150px;
+    height:110px;
     border-radius: 10%;
 }
 
 p{
-    font-size: 10px;
-    color: gray;
-}
-
-h4
-{
     font-size: 12px;
-    color:darkgray;
+    color: black;
+    margin-top: 79px;
+    margin-left: 3px;
 }
 
 
-.col-1
+.red-name
 {
-  background: linear-gradient(black 70%, white 50%);
-  border-color: black;
+  background: linear-gradient(red 70%, white 30%);
+  border-color: lightgray;
   border-style: solid;
 
 }
-.col-2
+.aqua-name
 {
-      background: linear-gradient(#470000 70%, white 50%);
+      background: linear-gradient(Aqua 70%, white 30%);
         border-style: solid;
-        border-color: #470000;
+        border-color: lightgray;
 }
-.col-3
+.yellow-name
 {
-      background: linear-gradient(#750000 70%, white 50%);
+      background: linear-gradient(yellow 70%, white 30%);
         border-style: solid;
-        border-color: #750000;
+        border-color: lightgray;
 }
-.col-4
+
+.red-hex
 {
-        background: linear-gradient(#A30000 70%, white 50%);
-        border-style: solid;
-        border-color: #A30000;
+  background: linear-gradient(#FF0000 70%, white 30%);
+  border-color: lightgray;
+  border-style: solid;
 }
+.aqua-hex
+{
+      background: linear-gradient(#00FFFF 70%, white 30%);
+        border-style: solid;
+        border-color: lightgray;
+}
+.yellow-hex
+{
+      background: linear-gradient(#FFFF00 70%, white 30%);
+        border-style: solid;
+        border-color:lightgray;
+}
+
+.red-rgb
+{
+  background: linear-gradient(rgb(255, 0, 0) 70%, white 30%);
+  border-color: lightgray;
+  border-style: solid;
+}
+.aqua-rgb
+{
+      background: linear-gradient(rgb(0, 255, 255) 70%, white 30%);
+        border-style: solid;
+        border-color: lightgray;
+}
+.yellow-rgb
+{
+      background: linear-gradient(rgb(255, 255,0) 70%, white 30%);
+        border-style: solid;
+        border-color:lightgray;
+}
+
+.red-6rgba
+{
+  background: linear-gradient(rgba(255, 0, 0, 0.5) 70%, white 30%);
+  border-color: lightgray;
+  border-style: solid;
+}
+.red-3rgba
+{
+  background: linear-gradient(rgba(255, 0,0, 0.3) 70%, white 30%);
+  border-color: lightgray;
+  border-style: solid;
+}
+.red-1rgba
+{
+  background: linear-gradient(rgba(255, 0, 0,1) 70%, white 30%);
+  border-color: lightgray;
+  border-style: solid;
+}
+
+.red-0rgba
+{
+  background: linear-gradient(rgba(255, 0, 0,0.1) 70%, white 30%);
+  border-color: lightgray;
+  border-style: solid;
+}
+
 
 .back
 {
     background-color: yellow;
-    border-radius: 30px;
 }
 
 .opa
 {
   border-color: black;
   border-style: solid;
- color:rgba(0, 0, 0);
+  background-color: blue;
   opacity: 0.5;
 
 }
@@ -79,5 +126,5 @@ h4
 {
         border-style: solid;
         border-color:black;
-        color:rgba(0, 0, 0, 0.5)
+        background-color:rgba(0, 0, 255, 0.5)
 }

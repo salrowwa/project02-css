@@ -3,81 +3,98 @@
 <html lang="en">
 
 <head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-    <title>Color</title>
+    <title>Colors & Opacity</title>
 </head>
 
 <body>
-    <h2>CSS Shapes</h2>
-    <br><br><br>
 
-    <div>
+   <fieldset>
+      <legend>Name Of Color</legend>
+      <div>
+         <div class="square red-name">
+            <p><strong>Red</strong><br>
+            Red</p></div>
 
-         <div class="square col-1">
-            <h4>Black</h4>
-            <p>Black</p></div>
+         <div class="square aqua-name">
+            <p><strong>Aqua</strong><br>
+            Aqua</p></div>
 
-         <div class="square col-2">
-            <h4>Sel Brown</h4>
-            <p>Sel Brown</p></div>
+         <div class="square yellow-name">
+            <p><strong>Yellow</strong><br>
+            Yellow</p></div>
+      </div>
+   </fieldset>
 
-         <div class="square col-3">
-            <h4>Liquorice Red</h4>
-            <p>Liquorice Red</p></div>
+   <fieldset>
+      <legend>6-Digit HEX</legend>    
+      <div>
+         <div class="square red-hex">
+            <p><strong>Red</strong><br>
+            #FF0000</p></div>
 
-         <div class="square col-4">
-            <h4>Dark Red</h4>
-            <p>Dark Red</p></div>
+         <div class="square aqua-hex">
+            <p><strong>Aqua</strong><br>
+            #00FFFF</p></div>
 
-            
+         <div class="square yellow-hex">
+            <p><strong>Yellow</strong><br>
+            #FFFF00</p></div>
+      </div>
+   </fieldset>
 
-         <div class="square col-1">
-            <h4>Black</h4>
-            <p>Black</p></div>
+   <fieldset class=".fildset-back">
+      <legend>RGBA</legend>
+      <div>
+         <div class="square red-6rgba">
+            <p><strong>Red</strong><br>
+            rgba(255,0,0,6)</p></div>
 
-         <div class="square col-2">
-            <h4>Sel Brown</h4>
-            <p>Sel Brown</p></div>
+         <div class="square red-3rgba">
+            <p><strong>Red</strong><br>
+            rgba(255,0,0,3)</p></div>
 
-         <div class="square col-3">
-            <h4>Liquorice Red</h4>
-            <p>Liquorice Red</p></div>
+         <div class="square red-1rgba">
+            <p><strong>Red</strong><br>
+            rgba(255,0,0,1)</p></div>
 
-         <div class="square col-4">
-            <h4>Dark Red.</h4>
-            <p>Dark Red</p></div>
-
-
-
-         <div class="square col-1">
-            <h4>Black</h4>
-            <p>Black</p></div>
-
-         <div class="square col-2">
-            <h4>Sel Brown</h4>
-            <p>Sel Brown</p></div>
-
-         <div class="square col-3">
-            <h4>Liquorice Red</h4>
-            <p>Liquorice Red</p></div>
-
-         <div class="square col-4">
-            <h4>Dark Red.</h4>
-            <p>Dark Red</p></div>
+         <div class="square red-0rgba">
+            <p><strong>Red</strong><br>
+            rgba(255,0,0,0)</p></div>
     </div>
+   </fieldset>
+
+   <fieldset>
+      <legend>RGB</legend>
+      <div>
+         <div class="square red-rgb">
+            <p><strong>Red</strong><br>
+            rgb(255,0,0)</p></div>
+
+         <div class="square aqua-rgb">
+            <p><strong>Aqua</strong><br>
+            rgb(0,255,255)</p></div>
+
+         <div class="square yellow-rgb">
+            <p><strong>Yellow</strong><br>
+            rgb(255,255,0)</p></div>
+    </div>
+   </fieldset>
 
        
 
-    <div class="back">
-
-        
+   <fieldset>
+      <legend>RGBA vs Opacity</legend>
+    <div>
          <div class="square opa">
-            <p>opacity</p></div>
+            <p>Opacity</p></div>
 
          <div class="square rgba">
             <p>RGBA</p></div>
-
     </div>
+   </fieldset>
 
 
 </body>

@@ -12,3 +12,22 @@
     flex-wrap: wrap;
     gap: 20px;
  }
+
+ .sup-dev
+ {
+   color:black; 
+   border: solid;
+   position: relative; 
+   width: 330px;
+   height: 250px;
+ }
+
+ a
+{
+   color:red;
+   font-size: 14px;
+   text-decoration: none;
+   align-items: center;
+   justify-content: center;
+   padding-right: 50px;
+}
