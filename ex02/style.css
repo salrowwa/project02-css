@@ -1,0 +1,91 @@
+ .nav-container 
+ {
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    color:red;
+    z-index: 800;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+ }
+
+.link
+{
+   align-items: center;
+   justify-content: center;
+   gap: 100px;
+}
+
+div a
+{
+   color:red;
+   font-size: 14px;
+   text-decoration: none;
+   align-items: center;
+   justify-content: center;
+   padding-right: 50px;
+}
+
+ body
+ {
+   margin: 0;
+   padding-top: 95px;
+   background-color: gray;
+ }
+
+ div div
+ {
+   background-color: burlywood;
+ }
+
+ div div button
+ {
+   background-color: black;
+   border: 0;
+   align-items: center;
+   padding-bottom: 10px;
+ }
+ .card-container
+ {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+ }
+
+ .sup-dev
+ {
+   color:black; 
+   border: solid;
+   position: relative; 
+   width:226px;
+   height: 200px;
+ }
+
+ .pos
+ {
+   position: fixed;
+   right:0;
+   bottom: 0;
+ }
+
+.not
+{
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  min-width: 30px;
+  height: 30px;
+  line-height: 25px;
+  text-align: center;
+  background: red;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: bold;
+}
