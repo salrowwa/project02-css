@@ -88,3 +88,18 @@ div a
   font-size: 12px;
   font-weight: bold;
 }
+
+p
+{
+   margin-left: 5px;
+}
+
+div h2
+{
+     margin-left: 5px;
+}
+
+fieldset
+{
+  margin-top: 50px;
+}

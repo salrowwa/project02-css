@@ -18,8 +18,8 @@
    color:black; 
    border: solid;
    position: relative; 
-   width: 330px;
-   height: 250px;
+   width: 327px;
+   height: 240px;
  }
 
  a
@@ -30,4 +30,20 @@
    align-items: center;
    justify-content: center;
    padding-right: 50px;
+}
+
+div h2
+{
+   color: red;
+   margin-left: 6px;
+}
+
+p
+{
+   margin-left: 6px;
+}
+
+fieldset
+{
+   margin-top: 50px;
 }

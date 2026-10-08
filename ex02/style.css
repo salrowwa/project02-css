@@ -5,6 +5,7 @@ div {
     flex-wrap: wrap;
     margin-left: 50px;
     margin-right: 50px;
+    margin-top: 60px;
 }
 
 h2
@@ -13,6 +14,7 @@ h2
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 100px;
 }
 
 .square
@@ -39,9 +41,9 @@ h2
 
 .pill
 {
-    border-radius: 46%;
-    height: 120px;
-    width: 87px;
+    border-radius: 49%;
+    height: 87px;
+    width: 176px;
     background-color: greenyellow;
 }
 
@@ -53,5 +55,4 @@ h2
     border-right: 100px solid;
     border-bottom: 100px solid;
     border-color: paleturquoise;
-
 }
