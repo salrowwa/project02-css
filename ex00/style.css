@@ -17,7 +17,6 @@
  {
    color:black; 
    border: solid;
-   position: relative; 
    width: 327px;
    height: 240px;
  }
@@ -27,8 +26,6 @@
    color:red;
    font-size: 14px;
    text-decoration: none;
-   align-items: center;
-   justify-content: center;
    padding-right: 50px;
 }
 

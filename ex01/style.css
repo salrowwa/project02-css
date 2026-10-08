@@ -6,27 +6,18 @@
     width: 100%;
     background-color: black;
     color:red;
-    z-index: 800;
+    z-index: 1;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
 
  }
 
-.link
-{
-   align-items: center;
-   justify-content: center;
-   gap: 100px;
-}
-
 div a
 {
    color:red;
    font-size: 14px;
    text-decoration: none;
-   align-items: center;
-   justify-content: center;
    padding-right: 50px;
 }
 
@@ -91,12 +82,12 @@ div a
 
 p
 {
-   margin-left: 5px;
+  margin-left: 5px;
 }
 
 div h2
 {
-     margin-left: 5px;
+    margin-left: 5px;
 }
 
 fieldset

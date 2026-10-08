@@ -124,7 +124,13 @@ p{
 }
 .rgba
 {
-        background: linear-gradient(rgba(0, 255, 0) 70%, white 30%);
+        background: linear-gradient(rgba(0, 255, 0, 0.5) 70%, white 30%);
+        border-style: solid;
+        border-color:olive;
+}
+.lightgreen
+{
+        background: linear-gradient(rgb(0, 255, 0) 70%, white 30%);
         border-style: solid;
         border-color:olive;
 }
